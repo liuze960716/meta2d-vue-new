@@ -3,8 +3,8 @@
  * @Version: 1.0
  * @Author: 13146504151@163.com
  * @Date: 2023-02-14 15:15:06
- * @LastEditors: liuze@vchangyi.com
- * @LastEditTime: 2023-03-04 10:35:44
+ * @LastEditors: 13146504151@163.com
+ * @LastEditTime: 2023-03-04 10:54:15
 -->
 <template>
   <div class="meta2d-header-toolbar">
@@ -12,6 +12,7 @@
       <img :src="logo" alt="logo" width="42" height="42" />
     </div>
     <div class="editor-name">Meta2d Editor</div>
+    <div class="save"></div>
   </div>
 </template>
 
@@ -25,6 +26,7 @@
     border-bottom: 1px solid #dcdfe6;
     padding: 4px 8px;
     display: flex;
+    box-shadow: 0 2px 4px #dad7d7;
     .editor-name {
       width: 200px;
       font-size: 24px;

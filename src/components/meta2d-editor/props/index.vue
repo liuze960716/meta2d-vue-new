@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion: 
+ * @Version: 1.0
+ * @Author: 13146504151@163.com
+ * @Date: 2023-02-14 15:15:06
+ * @LastEditors: 13146504151@163.com
+ * @LastEditTime: 2023-03-05 10:28:35
+-->
 <template>
   <div class="meta2d-props">
     <el-tabs v-if="meta2dInst" v-model="activeName">
@@ -5,7 +13,9 @@
         <el-tab-pane label="外观" name="exterior">
           <pen-exterior />
         </el-tab-pane>
-        <el-tab-pane label="动效" name="second">Config</el-tab-pane>
+        <el-tab-pane label="动效" name="second">
+          <div>动效</div>
+        </el-tab-pane>
       </template>
       <el-tab-pane v-else label="画布" name="canvas">
         <canvas-props />
@@ -45,7 +55,7 @@
 
 <style lang="scss">
   .meta2d-props {
-    width: 250px;
+    width: 300px;
     border-left: 1px solid #dcdfe6;
     .el-tabs {
       height: 100%;

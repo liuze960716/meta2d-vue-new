@@ -1,0 +1,38 @@
+/**
+** 全局颜色变量
+*/ 
+$color-main: #708DF5;  // 主色
+$color-success: #6FC688;  // 成功色
+$color-warn: #F6AB3C;  // 异常
+$color-danger: #F67170;  // 错误
+$color-normal: #909399;  // 正常
+$color-dark: #121c42; //最底层深蓝背景色
+
+$color-text-main: #303133; // 主要文字
+$color-text-normal: #606266; // 常规文字
+$color-text-second: #909399; // 提示文字
+$color-placeholder: #C0C4CC; // 占位文字
+$color-background: #F5F6FA; // 背景色
+$color-first-line: #C7CAD0; //一级边框色（合并表格表头分割线）
+$color-second-line: #DCDFE6; //二级边框颜色 (输入框色)
+$color-third-line: #EBEEF5; // 三级边框颜色 (分割线色)
+$color-disable: #C0C4CC; // 置灰色
+$color-table-header: #ECECF3; // 表格表头色
+
+$root-menu-hover:rgba(112, 141, 245, 0.4); // 一级导航栏hover效果
+$color-white: #FFFFFF; // 白色
+$color-black: #000000; // 黑色
+$color-main-01: rgba(112, 141, 245, 0.1);
+$color-link: #0079DE; // 除table外的链接颜色
+
+
+
+
+.color-link {
+    color: $color-link !important;
+    cursor: pointer;
+}
+
+.link-hover:hover {
+    opacity: 0.8;
+}
