@@ -4,7 +4,7 @@
  * @Author: 13146504151@163.com
  * @Date: 2023-02-14 15:15:06
  * @LastEditors: 13146504151@163.com
- * @LastEditTime: 2023-03-08 10:50:13
+ * @LastEditTime: 2023-03-08 11:21:18
 -->
 <template>
   <div class="meta2d-props">
@@ -64,7 +64,7 @@
 
 <style lang="scss">
   .meta2d-props {
-    width: 300px;
+    min-width: 240px;
     border-left: 1px solid #dcdfe6;
     .el-tabs {
       height: 100%;
@@ -75,7 +75,6 @@
         width: 100%;
         display: flex;
         .el-tabs__item {
-          // width: 33.33%;
           flex: 1;
           padding: 0;
           text-align: center;

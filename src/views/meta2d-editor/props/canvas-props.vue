@@ -6,6 +6,7 @@
           <div class="file-name">组态名称：</div>
           <el-input
             v-model="fileName"
+            class="wid150"
             size="small"
             placeholder="请输入组态名称"
           />
@@ -14,8 +15,9 @@
           <div class="file-name">所属系统：</div>
           <el-select
             v-model="groupValue"
+            class="wid150"
             size="small"
-            placeholder="请输入所属系统"
+            placeholder="请选择所属系统"
           >
             <el-option
               v-for="item in groupOptions"
@@ -106,7 +108,7 @@
   /** 切换的val */
   const activeNames = ref(['1'])
   /** 文件名 */
-  const fileName = ''
+  const fileName = ref('')
   /** 分组 */
   const groupValue = ref([''])
   /** 分组的值分类 */
@@ -158,5 +160,8 @@
 <style scoped>
   .file-name {
     width: 100px;
+  }
+  .wid150 {
+    width: 120px;
   }
 </style>
